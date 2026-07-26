@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply — unbuffed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-mark" href="index.html">UNBUFFED</a>
+  <div class="nav-links">
+    <a href="index.html#next">Next Stop</a>
+    <a href="index.html#tour">Tour</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="apply.html" class="apply-link">Apply</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="label">Expression of Interest</div>
+  <h1>Apply to exhibit</h1>
+  <p>
+    Free to apply. You'll only pay an exhibition fee if your work is selected —
+    see <a href="pricing.html" style="color:var(--red);">pricing here</a>. We reply to every application.
+  </p>
+</div>
+
+<section style="border-top:none;">
+  <div class="section-inner">
+
+    <form class="eoi-form" action="https://formsubmit.co/YOUR-EMAIL@example.com" method="POST">
+
+      <!-- FormSubmit config — free, no backend needed -->
+      <input type="hidden" name="_subject" value="New unbuffed EOI submission">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="true">
+
+      <div class="two-col">
+        <div class="field-group">
+          <label class="label" for="name">Full name *</label>
+          <input type="text" id="name" name="Full Name" required>
+        </div>
+        <div class="field-group">
+          <label class="label" for="email">Email *</label>
+          <input type="email" id="email" name="Email" required>
+        </div>
+      </div>
+
+      <div class="two-col">
+        <div class="field-group">
+          <label class="label" for="phone">Phone</label>
+          <input type="tel" id="phone" name="Phone">
+        </div>
+        <div class="field-group">
+          <label class="label" for="insta">Instagram or website *</label>
+          <input type="text" id="insta" name="Instagram or Website" placeholder="@yourhandle or yoursite.com" required>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label class="label">Medium(s) — select all that apply</label>
+        <div class="checkbox-grid">
+          <label class="check-item"><input type="checkbox" name="Medium" value="Painting"> Painting</label>
+          <label class="check-item"><input type="checkbox" name="Medium" value="Photography"> Photography</label>
+          <label class="check-item"><input type="checkbox" name="Medium" value="Illustration"> Illustration</label>
+          <label class="check-item"><input type="checkbox" name="Medium" value="Sculpture / 3D"> Sculpture / 3D</label>
+          <label class="check-item"><input type="checkbox" name="Medium" value="Textile"> Textile</label>
+          <label class="check-item"><input type="checkbox" name="Medium" value="Digital"> Digital</label>
+          <label class="check-item"><input type="checkbox" name="Medium" value="Mixed Media"> Mixed Media</label>
+          <label class="check-item"><input type="checkbox" name="Medium" value="Other"> Other</label>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label class="label">Which tier are you interested in?</label>
+        <div class="radio-tiers">
+          <label class="radio-tier">
+            <input type="radio" name="Preferred Tier" value="Single Piece ($149)" checked>
+            <span class="rt-name">Single Piece</span>
+            <span class="rt-price">$149</span>
+          </label>
+          <label class="radio-tier">
+            <input type="radio" name="Preferred Tier" value="Two Pieces ($249)">
+            <span class="rt-name">Two Pieces</span>
+            <span class="rt-price">$249</span>
+          </label>
+          <label class="radio-tier">
+            <input type="radio" name="Preferred Tier" value="Not sure yet">
+            <span class="rt-name">Not sure yet</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label class="label" for="portfolio">Link to images of your work *</label>
+        <div class="hint">Google Drive, Dropbox, Instagram, or a portfolio site — anywhere we can view 3–5 pieces.</div>
+        <input type="url" id="portfolio" name="Portfolio Link" placeholder="https://" required>
+      </div>
+
+      <div class="field-group">
+        <label class="label" for="statement">Tell us about you and your work *</label>
+        <div class="hint">A few sentences — what you make, what it's about, where you're at as an artist.</div>
+        <textarea id="statement" name="Artist Statement" required></textarea>
+      </div>
+
+      <div class="field-group">
+        <label class="label" for="notes">Anything else?</label>
+        <textarea id="notes" name="Additional Notes"></textarea>
+      </div>
+
+      <div class="form-note">
+        Submitting this form is free. If your work is selected for the show, we'll follow up
+        with next steps and payment for your chosen tier — nothing is charged automatically.
+      </div>
+
+      <div class="submit-row">
+        <button type="submit" class="btn btn-red">Submit application →</button>
+      </div>
+
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Unbuffed — Brisbane, Australia</span>
+  <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+</footer>
+
+</body>
+</html>
