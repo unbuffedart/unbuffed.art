@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>unbuffed — touring pop-up gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-mark" href="index.html">UNBUFFED</a>
+  <div class="nav-links">
+    <a href="index.html#next">Next Stop</a>
+    <a href="index.html#tour">Tour</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="apply.html" class="apply-link">Apply</a>
+  </div>
+</nav>
+
+<section class="hero" style="border-top:none;">
+  <div class="sticker-wrap">
+    <img src="assets/logo.png" alt="unbuffed">
+  </div>
+  <p class="hero-tagline">
+    A touring pop-up for emerging artists. No white cube, no gatekeeping —
+    just raw space, real walls, and work that hasn't been sanded down to fit anywhere else.
+  </p>
+  <div class="hero-actions">
+    <a class="btn btn-dark" href="apply.html">Apply to exhibit</a>
+    <a class="btn btn-outline" href="pricing.html">See pricing</a>
+  </div>
+</section>
+
+<section id="next">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="num">01</span>
+      <h2>Next Stop</h2>
+    </div>
+    <div class="crate">
+      <div class="stamp">Confirmed</div>
+      <div class="crate-row">
+        <div class="crate-field">
+          <div class="label">City</div>
+          <div class="val red">Brisbane</div>
+        </div>
+        <div class="crate-field">
+          <div class="label">Date</div>
+          <div class="val">TBC</div>
+        </div>
+        <div class="crate-field">
+          <div class="label">Venue</div>
+          <div class="val">TBC</div>
+        </div>
+        <div class="crate-field">
+          <div class="label">Entry (visitors)</div>
+          <div class="val">Free</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tour">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="num">02</span>
+      <h2>Tour Manifest</h2>
+    </div>
+    <div class="manifest">
+      <div class="manifest-row">
+        <span class="idx">01</span>
+        <span class="city">Brisbane</span>
+        <span class="stat confirmed">Confirmed</span>
+        <span class="date">TBC</span>
+      </div>
+      <div class="manifest-row">
+        <span class="idx">02</span>
+        <span class="city">Sydney</span>
+        <span class="stat tba">TBA</span>
+        <span class="date">—</span>
+      </div>
+      <div class="manifest-row">
+        <span class="idx">03</span>
+        <span class="city">Melbourne</span>
+        <span class="stat tba">TBA</span>
+        <span class="date">—</span>
+      </div>
+      <div class="manifest-row">
+        <span class="idx">04</span>
+        <span class="city">Adelaide</span>
+        <span class="stat tba">TBA</span>
+        <span class="date">—</span>
+      </div>
+      <div class="manifest-row">
+        <span class="idx">05</span>
+        <span class="city">Perth</span>
+        <span class="stat tba">TBA</span>
+        <span class="date">—</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="num">03</span>
+      <h2>About</h2>
+    </div>
+    <p class="about-text">
+      <strong>Unbuffed</strong> is a pop-up gallery series for emerging Australian artists —
+      built to move. Starting in Brisbane, it sets up in a new city each stop: a warehouse,
+      a spare room, a wall that isn't usually a gallery wall. No long leases, no polish for
+      polish's sake. Just work shown as it actually is, in front of people who showed up.
+    </p>
+  </div>
+</section>
+
+<section class="call" id="artists">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="num" style="color:var(--pink)">04</span>
+      <h2>Call For Artists</h2>
+    </div>
+    <p class="call-text">
+      Unbuffed is looking for emerging artists for its first Brisbane show and future stops
+      around the country. Applying is free — you only pay if your work is selected.
+      Any medium, any stage.
+    </p>
+    <a class="btn btn-red" href="apply.html">Apply to exhibit →</a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Unbuffed — Brisbane, Australia</span>
+  <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+</footer>
+
+</body>
+</html>
