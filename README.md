@@ -1,2 +1,2 @@
 # unbuffed
-raw talent in the spotlight
+spotlight for raw talent.
