@@ -1,2 +1,2 @@
 # unbuffed
-where raw talent meets the spotlight
+raw talent in the spotlight
